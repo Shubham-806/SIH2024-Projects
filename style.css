@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: black;
+    background-color:#ffffff;
+    font-family: "Poppins", sans-serif;
+    
+}
+:root{
+    --bg-white: #ffffff;
+}
+.container{
+    margin: 0;
+    padding: 1rem 4rem;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4.5rem; 
+    /* position: fixed;  */
+  }
+  .nav-logo img{
+    height: 4rem;
+  }
+  .nav-option{
+    gap: 1rem;
+  }
+  .nav-option a{
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+    
+  }
+  .notice{
+    padding: 0 5.5rem ;
+
+  }
+  .pg1{
+    min-height: 80vh;
+    padding: 1rem 4.5rem;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+  }
+  .pg-img{
+    width: 40%;
+
+  }
+  .pg-img img{
+  
+width: 70%;}
+  .pg-desc{
+    width: 60%;
+    
+  }
+  .ser-head h1{
+    text-align: center;
+    font-weight: 600;
+    padding: 4rem 0;
+    
+  }
+  .serv-cards{
+    padding: 1rem 4.5rem;
+    min-height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .serv-cards .card{
+    width: 25%;
+    min-height:22rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+  }
+  .serv-cards .card h2{
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .detail{
+    margin-top: 3rem;
+    padding: 1rem 4.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+.detail-img{
+    width: 30%;
+}
+.detail-img img{
+    width: 60%;;
+}
+.detail-des{
+    width: 60%;
+}
+.unani{
+    flex-direction: row-reverse;
+    justify-content: end;
+}
+.schemes-heading h1{
+    text-align: center;
+    font-weight: 600;
+    margin: 3rem 0;
+
+}
+.schemes-body{
+    display: flex;
+    flex-wrap: wrap;
+gap: 2rem;
+justify-content: center;
+align-items: center;
+}
+.schemes-body .card{
+    width: 25%;
+    align-items: center;
+    padding: 1rem 1.5rem;
+     
+}
+.schemes-body .card .card-head h3{
+    font-weight: 600;
+    font-size: 1.5rem;
+
+}
+.card-btn button{
+    background-color: greenyellow;
+    color: #000000;
+    padding: 5px;
+
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    padding: 3rem 4.5rem;
+    align-items: center;
+    justify-content: center;
+}
+.about h1{
+    font-weight: 600;
+}
+.about p{
+font-size: 1.5rem;
+}
+.about-body{
+    margin: 3rem 0;;
+    width: 70%;
+}
+
+
+.foot{
+    display: flex;
+    padding: 1rem 4.5rem;
+    
+}
+.foot-options{
+    display: flex;
+    flex-direction: column;
+   
+}
+.foot a {
+    font-size: 1.2rem;
+    gap: 2rem;
+}
+
+
+
+  
+  
